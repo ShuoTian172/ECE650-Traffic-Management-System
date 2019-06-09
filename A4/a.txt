@@ -1,0 +1,6 @@
+https://www.cs.upc.edu/~erodri/webpage/cps/lab/sat/tutorial-sat-solvers-slides/slides.pdf 
+p cnf 2 4
+1 2 0
+1 -2 0
+-1 2 0
+-1 -2 0
