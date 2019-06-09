@@ -1,0 +1,17 @@
+Some instructions:
+
+This is just a clarification about the assignment instructions. Note that you must have a dedicated I/O thread, and that thread is the only thread that is allowed to read input and produce output. The other threads do the computation and communicate with the I/O thread. In particular, you must ensure that the output is exactly as shown in the example output. The order of each line is important!
+
+To achieve this, you most probably will have to use thread synchronization primitives such as mutex and semaphore to ensure that threads cooperate and that there are no bad race conditions.
+
+1. A5 is supposed to behave like A4 itself. I.e when we run it, it should wait for user input and then print out the three lines and then continue to wait for the next input.
+
+2. We have decided to change the maximum number of vertices from 50 to 20. So you need to test graphs with up to 20 vertices in your report.
+
+
+
+Some updated info as follow:
+
+1. If you are not able to try 20 vertices, you might try smaller number of vertices like 17 or 18. It would be interesting to have even one example of 20 vertices though.
+
+2. Because the output of GraphGen is ransom, you do not have to worry about randomness of second approximation algorithm.
