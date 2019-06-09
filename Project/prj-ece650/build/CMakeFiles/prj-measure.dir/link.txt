@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++0x -Wall   -rdynamic CMakeFiles/prj-measure.dir/prj-measure.cpp.o  -o prj-measure -lpthread minisat/libminisat.a -lz 
